@@ -1,13 +1,14 @@
 h1{
     font-family: Nohemi,"Instrument Sans", sans-serif;
    
-    font-size: 10vw;
+    font-size: 6.4vw;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 1.1em;
     text-transform: uppercase;
     color: var(--color1);
     /* letter-spacing: 4px; */
     /* word-spacing: 20px; */
+    text-align: center;
 }
 p{
     font-family: "Space Grotesk";
@@ -15,3 +16,31 @@ p{
     font-weight: 300;
     color: var(--color1);
 }
+
+.hero{
+    /* background-color: var(--color1); */
+    background-color:var(--0);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 , .hero p{
+    color: var(--color3);
+}
+
+.about {
+    /* background-color: var(--color1); */
+    /* background-color:var(--color3); */
+    /* height: 100vh; */
+    padding: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
