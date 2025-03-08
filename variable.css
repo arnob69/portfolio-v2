@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+/* Webfont: Nohemi-Regular */@font-face {
+    font-family: 'Nohemi';
+    src: url('./font/Nohemi-VF-BF6438cc58ad63d.ttf') , /* Modern Browsers */
+         url('Nohemi-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+:root {
+    --line-color: rgba(0, 0, 0, 0.04); /* Extremely subtle lines */
+    --line-width: 0.5px; /* Ultra-thin */
+    --line-spacing: 20px; /* Smaller grid for a refined look */
+    --bg-color: #EDF2F4; /* Clean white background */
+    --color1:#2B2D42;
+    --color2:#EF233C;
+    --color3:#EDF2F4;
+    --color4:#8D99AE;
+
+  }
+  
+  /* Minimalist Fine Grid Background */
+  body {
+    background-color: var(--bg-color);
+    background-image: 
+      linear-gradient(to bottom, var(--line-color) var(--line-width), transparent 1px),
+      linear-gradient(to right, var(--line-color) var(--line-width), transparent 1px);
+    background-size: var(--line-spacing) var(--line-spacing);
+    margin: 0;
+    padding:  8%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
